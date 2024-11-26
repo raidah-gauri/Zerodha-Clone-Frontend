@@ -1,0 +1,22 @@
+/* src/css/homePage.css */
+
+.homePageBtn {
+    width: 14%;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #1d6bbe; /* Default background color */
+    color: white;
+    border-color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: background-color 0.1s ease; /* Smooth transition */
+}
+
+.homePageBtn:hover {
+    background-color: rgb(48, 45, 45); /* Change background color on hover */
+}
+.StatsImg{
+    width: 100%;
+}
+
+

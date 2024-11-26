@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,69 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+body{
+  color: #424242;
 }
+.nav-link{
+  margin-right: 34px;
+  margin-left: 2px;
+  font-size: 14px;
+}
+.navbar-nav{
+margin-right: 108px;
+}
+.container .createTicket{
+  font-size: 20px;
+  text-decoration: none;
+}
+.container .createTicket:hover  {
+  text-decoration: underline;
+  color: #424242;
+}
+.createTicketa{
+  font-size: 22px;
+
+}
+/* Support Page */
+.supportPage{
+  background-color: #387ed1;
+  height: 78vh;
+  color: white;
+}
+.supportPage ol li a , .link-sp ul li a{
+  color: white;
+  font-size: 24px;
+}
+.link-sp{
+  margin-left: 93px;
+  font-size: 27px;
+}
+.link-sp ul li a{
+  text-decoration: underline; 
+  margin-right: 22px;
+  cursor: pointer;
+}
+.link-sp ul{
+  display: flex ;
+}
+.fa-magnifying-glass{
+  color: grey;  
+}
+.fa-magnifying-glass:hover{
+  color: grey;
+}
+
+
+/* <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+                <span class="input-group-text" id="basic-addon2">
+                  @example.com
+                </span>
+              </div> */
